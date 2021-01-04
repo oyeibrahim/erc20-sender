@@ -101,8 +101,8 @@ function sendErc20(token, amount, destination) {
                 //data to send to the contract is that it should call the contract transfer method
                 //and send the amount to the destination address
                 //add the decimal number of zeros to amount using the token data
-                data: contract.methods.transfer(destination, amount + tokenData.decimal_rept).encodeABI(),
-                
+                data: contract.methods.transfer(destination, web3.utils.toWei(amount, tokenData.decimal_rept)).encodeABI(),
+
                 chainID: web3.utils.toHex(1)//using mainnet
             }
 

@@ -21,10 +21,8 @@ The data in the token file must include the token:
 * ABI
 * Address
 * Decimal
-* Decimal Rept : write zero as a string in the number of decimal of the token, so if the token Decimal is 18, then Decimal Rept will be "000000000000000000"
+* Decimal Rept : the representation of the token decimal in Ethereum Standard, check https://web3js.readthedocs.io/en/v1.2.11/web3-utils.html#towei
 
 An example file is available in the folder.
 
 It is not compulsory to introduce the token data in this form, you can choose any other form to get the token data. Sending ERC20 requires the token contract ABI, Address and Decimal. Those three must be introduced in any way before the transfer can work.
-
-Contact me: oyetunjiibrahim@gmail.com
