@@ -1,4 +1,4 @@
-# ethereum-sender
+# erc20-token-sender
 Complete JS implementation of sending ERC20 token programmatically using Web3 and Infura.
 
 You must have read and understand web3 Documentation on sending Ethereum transaction before using this code.
